@@ -1,3 +1,5 @@
+[![Coverage Status](https://coveralls.io/repos/github/philihp/gaussian/badge.svg?branch=main)](https://coveralls.io/github/philihp/gaussian?branch=main)
+
 # gaussian
 
 A JavaScript model of the [Normal](http://en.wikipedia.org/wiki/Normal_distribution)
@@ -6,6 +8,7 @@ A JavaScript model of the [Normal](http://en.wikipedia.org/wiki/Normal_distribut
 ## API
 
 ### Creating a Distribution
+
 ```javascript
 var gaussian = require('gaussian');
 var distribution = gaussian(mean, variance);
@@ -14,11 +17,13 @@ var sample = distribution.ppf(Math.random());
 ```
 
 ### Properties
+
 - `mean`: the mean (μ) of the distribution
 - `variance`: the variance (σ^2) of the distribution
 - `standardDeviation`: the standard deviation (σ) of the distribution
 
 ### Probability Functions
+
 - `pdf(x)`: the probability density function, which describes the probability
   of a random variable taking on the value _x_
 - `cdf(x)`: the cumulative distribution function, which describes the
@@ -26,6 +31,7 @@ var sample = distribution.ppf(Math.random());
 - `ppf(x)`: the percent point function, the inverse of _cdf_
 
 ### Combination Functions
+
 - `mul(d)`: returns the product distribution of this and the given distribution; equivalent to `scale(d)` when d is a constant
 - `div(d)`: returns the quotient distribution of this and the given distribution; equivalent to `scale(1/d)` when d is a constant
 - `add(d)`: returns the result of adding this and the given distribution's means and variances
@@ -33,4 +39,5 @@ var sample = distribution.ppf(Math.random());
 - `scale(c)`: returns the result of scaling this distribution by the given constant
 
 ### Generation Function
+
 - `random(n)`: returns an array of generated `n` random samples correspoding to the Gaussian parameters.
