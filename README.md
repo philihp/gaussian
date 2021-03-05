@@ -1,8 +1,8 @@
 [![Version](https://img.shields.io/npm/v/gaussian)](https://www.npmjs.com/package/gaussian)
-![Tests](https://github.com/philihp/gaussian/workflows/tests/badge.svg)
+[![Tests](https://github.com/philihp/gaussian/workflows/tests/badge.svg)](https://github.com/philihp/gaussian/actions/workflows/tests.yml)
 [![Coverage Status](https://coveralls.io/repos/github/philihp/gaussian/badge.svg?branch=coverage)](https://coveralls.io/github/philihp/gaussian?branch=main)
-![Downloads](https://img.shields.io/npm/dy/gaussian)
-![License](https://img.shields.io/npm/l/openskill)
+[![Downloads](https://img.shields.io/npm/dy/gaussian)](https://www.npmjs.com/package/gaussian)
+[![License](https://img.shields.io/npm/l/openskill)](https://github.com/philihp/gaussian/blob/main/LICENSE)
 
 # gaussian
 
